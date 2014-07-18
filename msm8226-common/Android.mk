@@ -34,6 +34,8 @@ include $(BUILD_PREBUILT)
 endif
 endif
 
+ifeq ($(LOCAL_MODULE),)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
 LOCAL_MODULE_OWNER := sony
@@ -43,5 +45,7 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
+
+endif
 
 endif
