@@ -14,21 +14,20 @@
 
 COMMON_PATH := vendor/sony/tamsui-common
 
-# QCOM Adreno
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/proprietary/system/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    $(COMMON_PATH)/proprietary/system/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    $(COMMON_PATH)/proprietary/system/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    $(COMMON_PATH)/proprietary/system/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    $(COMMON_PATH)/proprietary/system/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    $(COMMON_PATH)/proprietary/system/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    $(COMMON_PATH)/proprietary/system/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    $(COMMON_PATH)/proprietary/system/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    $(COMMON_PATH)/proprietary/system/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    $(COMMON_PATH)/proprietary/system/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    $(COMMON_PATH)/proprietary/system/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    $(COMMON_PATH)/proprietary/system/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
-    $(COMMON_PATH)/proprietary/system/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    $(COMMON_PATH)/proprietary/system/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    $(COMMON_PATH)/proprietary/system/lib/libC2D2.so:system/lib/libC2D2.so \
-    $(COMMON_PATH)/proprietary/system/lib/libgsl.so:system/lib/libgsl.so
+    $(COMMON_PATH)/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    $(COMMON_PATH)/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    $(COMMON_PATH)/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    $(COMMON_PATH)/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    $(COMMON_PATH)/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    $(COMMON_PATH)/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    $(COMMON_PATH)/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+    $(COMMON_PATH)/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
+    $(COMMON_PATH)/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    $(COMMON_PATH)/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    $(COMMON_PATH)/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    $(COMMON_PATH)/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
+    $(COMMON_PATH)/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    $(COMMON_PATH)/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
+    $(COMMON_PATH)/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    $(COMMON_PATH)/proprietary/lib/libgsl.so:system/lib/libgsl.so

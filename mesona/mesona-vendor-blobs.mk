@@ -58,7 +58,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/sony/mesona/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/mesona/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/mesona/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/sony/mesona/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/sony/mesona/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
+    vendor/sony/mesona/proprietary/lib/hw/audio.primary.sony.so:system/lib/hw/audio.primary.sony.so \
+    vendor/sony/mesona/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+    vendor/sony/mesona/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/sony/mesona/proprietary/lib/hw/audio_policy.sony.so:system/lib/hw/audio_policy.sony.so \
+    vendor/sony/mesona/proprietary/lib/hw/camera.vendor.msm7x27a.so:system/lib/hw/camera.vendor.msm7x27a.so \
     vendor/sony/mesona/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/mesona/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/mesona/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
@@ -88,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
     vendor/sony/mesona/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/sony/mesona/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/sony/jlo/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/sony/mesona/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/sony/mesona/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/mesona/proprietary/lib/libcm.so:system/lib/libcm.so \
@@ -133,4 +140,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mesona/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/sony/mesona/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/sony/mesona/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
-    vendor/sony/mesona/proprietary/lib/libxml.so:system/lib/libxml.so
+    vendor/sony/mesona/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/sony/mesona/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    vendor/sony/mesona/proprietary/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
+    vendor/sony/mesona/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+    vendor/sony/mesona/proprietary/lib/bluez-plugin/audio.so:system/lib/bluez-plugin/audio.so \
+    vendor/sony/mesona/proprietary/lib/bluez-plugin/bluetooth-health.so:system/lib/bluez-plugin/bluetooth-health.so \
+    vendor/sony/mesona/proprietary/lib/bluez-plugin/input.so:system/lib/bluez-plugin/input.so \
+    vendor/sony/mesona/proprietary/lib/bluez-plugin/network.so:system/lib/bluez-plugin/network.so 

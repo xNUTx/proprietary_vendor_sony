@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/nanhu/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
     vendor/sony/nanhu/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/nanhu/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/sony/nanhu/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/sony/nanhu/proprietary/lib/hw/camera.vendor.msm7x27a.so:system/lib/hw/camera.vendor.msm7x27a.so \
     vendor/sony/nanhu/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/sony/nanhu/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/sony/nanhu/proprietary/lib/libdiag.so:system/lib/libdiag.so \

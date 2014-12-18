@@ -59,7 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/sony/jlo/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/sony/jlo/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/sony/jlo/proprietary/lib/hw/camera.msm7x27a.so:system/lib/hw/camera.msm7x27a.so \
+    vendor/sony/jlo/proprietary/lib/hw/camera.vendor.msm7x27a.so:system/lib/hw/camera.vendor.msm7x27a.so \
     vendor/sony/jlo/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/jlo/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/sony/jlo/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
@@ -91,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/jlo/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
     vendor/sony/jlo/proprietary/lib/liballjoyn.so:system/lib/liballjoyn.so \
     vendor/sony/jlo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/sony/jlo/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/sony/jlo/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/sony/jlo/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/sony/jlo/proprietary/lib/libcm.so:system/lib/libcm.so \
