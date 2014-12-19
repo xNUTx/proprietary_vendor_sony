@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/honami/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/honami/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/honami/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/honami/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
@@ -39,13 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5e.img:system/etc/firmware/touch_module_id_0x5e.img \
     vendor/sony/honami/proprietary/etc/firmware/touch_module_id_0x5f.img:system/etc/firmware/touch_module_id_0x5f.img \
     vendor/sony/honami/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
-    vendor/sony/honami/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sony/honami/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/honami/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
-    vendor/sony/honami/proprietary/etc/sysmon.cfg:system/etc/sysmon.cfg \
     vendor/sony/honami/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
     vendor/sony/honami/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
-    vendor/sony/honami/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/honami/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/honami/proprietary/usr/idc/clearpad_pen.idc:system/usr/idc/clearpad_pen.idc \
     vendor/sony/honami/proprietary/vendor/camera/LGI02BN1.dat:system/vendor/camera/LGI02BN1.dat \

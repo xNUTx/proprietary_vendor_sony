@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/togari/proprietary/bin/chargemon:system/bin/chargemon \
-    vendor/sony/togari/proprietary/bin/illumination_service:system/bin/illumination_service \
     vendor/sony/togari/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/togari/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/togari/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
@@ -30,12 +29,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/togari/proprietary/etc/firmware/touch_chip_id_0x75_config_id_0x0013.bin:system/etc/firmware/touch_chip_id_0x75_config_id_0x0013.bin \
     vendor/sony/togari/proprietary/etc/firmware/touch_module_id_0x43.img:system/etc/firmware/touch_module_id_0x43.img \
     vendor/sony/togari/proprietary/etc/firmware/touch_module_id_0x44.img:system/etc/firmware/touch_module_id_0x44.img \
-    vendor/sony/togari/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/sony/togari/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/sony/togari/proprietary/etc/sensors_calib.conf:system/etc/sensors_calib.conf \
-    vendor/sony/togari/proprietary/etc/sysmon.cfg:system/etc/sysmon.cfg \
     vendor/sony/togari/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
-    vendor/sony/togari/proprietary/lib/libsysmon_jni.so:system/lib/libsysmon_jni.so \
     vendor/sony/togari/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/sony/togari/proprietary/usr/idc/max1187x_pen_0.idc:system/usr/idc/max1187x_pen_0.idc \
     vendor/sony/togari/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
